@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Your Page Title</title>
+        
+        <style> 
+        /* start header*/
+        #header{
+            background-color:#4caf50;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+        
+        }
+        #port {
+           
+            background-color:aqua;
+            text-align:center;
+            margin:auto;
+        }
+        table{
+          
+            width:100%;
+        }
+        #header-text {
+            
+            font-size:10px;
+            font-weight:bold;
+            color:purple;
+        }
+        a:hover {
+            color:red;
+        }
+        #home {
+            background-color:black;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+        .greeting{
+            animation-name:example;
+            animation-duration:6s;
+        }
+        @keyframes example {
+            0% {color:red;}
+            25%{color:yellow;}
+            50%{color:blue;}
+            100%{color:red;}
+        }
+        #about{
+            width:100%;
+            margin:auto;
+            background-color:lightblue;
+            color:grey;
+            padding:20px;
+            box-sizing:border-box;
+        }
+        #about h1{
+            color:#4caf50;
+            text-align:center;
+        }
+        #about img{
+            display:block;
+            margin:auto;
+        }
+        #skills{
+            background-color:#4caf6d;
+            margin:auto;
+            color:blue;
+        }
+        #header-text {
+            font-sie:10px;
+            font-weight:bold;
+            color:red;
+        }
+        #skills-text{
+            font-size:2em;
+            margin:auto;
+            text-align:center;
+            background-color:#4caf6d;
+        }
+        #skills ul {
+            list-style-type:none;
+            padding:10px;
+            margin:auto;
+        }
+        #skill li{
+            font-family:'Verdana';
+            font-size:18px;
+            margin-bottom:10px;
+        }
+        #skills-line{
+            Border:none;
+            border-top:3px solid red;
+            margin:auto;
+        }
+        /* end of the skills section*/
+        
+        /*project section*/
+        #projects{
+            background-color:#4caf6d;
+            color:blue;
+            margin:auto;
+        }
+     
+        
+        
+        
+        a:hover{
+            color:red;
+        }
+        
+        /* end of the skills section --> 
+        
+    /* start the project section */
+    #projects-text{
+            font-size:2em;
+            margin:auto;
+            text-align:center;
+            background-color:#4caf6d;
+        }
+        #projects ul {
+            list-style-type:none;
+            padding:10px;
+            margin:auto;
+        }
+        #projects li{
+            font-family:'Verdana';
+            font-size:18px;
+            margin-bottom:10px;
+        }
+        #projects-line{
+            Border:none;
+            border-top:3px solid red;
+            margin:auto;
+            width:80%;
+        }
+        #contact{
+            width:100%;
+            border-collapse:collapse;
+            text-align:center;
+        }
+        #contact h1{
+            margin:0;
+            color:#2c3e50;
+        }
+        #contact hr{
+            border-top:2px solid red;
+            margin:10px;
+        }
+        #contact td{
+            padding:15px;
+        }
+        label{
+            font-weight:bold;
+            display:block;
+            margin-bottom:5px;
+        }
+        input, textarea{
+            width:100%;
+            padding:10px;
+            border:1px solid black;
+            border-radius:10px;
+        }
+        button{
+            background-color:;
+            color:blue;
+            padding:15px;
+            border:;
+            border-radius:7px;
+            cursor:pointer;
+            transition:background-color 0.3s;
+        }
+        button:hover{
+            background-color:green;
+        }
+        body{
+            background-color:lightgray;
+        }
+        .fa:hover{
+            opacity:0.9;
+        }
+        .fa-facebook{
+            background:#007bb5;
+            color:white;
+        }
+        .fa-instagram{
+            background:#d62976;
+            color:white;
+        }
+        .fa-youtube-play{
+            background:#d6c6c6;
+            color:#f50909;
+        }
+        .fa{
+        padding:20px;
+        font-size:40px;
+        width:60px;
+        text-decoration:none;
+        margin:5px;
+            
+        }
+        
+        </style>
+        
+        
+    </head>
+
+    <body>
+        <h1 id="port">Portfolio</h1>
+        <table id="header" border="0">
+            <tr>
+            <td>
+         <p id="header-text"><h3>Khaliya Barbee</h3></p>
+         
+         </td>
+         
+         <td><a href="#home"> Home </a></td> 
+         <td>|</td>
+         <td><a href="#About"> About </a></td> 
+         <td>|</td>
+         <td><a href="#Skills"> Skills </a></td> 
+         <td>|</td>
+         <td><a href="#Projects"> Projects </a></td>
+         <td>|</td>
+         <td><a href="#Contact"> Contact </a></td> 
+           </tr> 
+      </table>
+      <header id="home">
+          <h3 class="greeting"> Greeting</h3>
+      </header>
+      <table id="about">
+          <tr>
+              <td>
+              <h1>About me</h1>
+              <hr>
+              <br>
+              <img src="https://codehs.com/uploads/523326e35795e16ceeb65b5b30f1001c " alt="profile image" width="100" height="100">
+              <p>
+                  Thanks for visiting my website. 
+              </p>
+              
+              <p>
+                  I am a software engineer for Creekside High school which is in fulton county school district.
+              </p>
+              
+              <p>
+                  I have one year experience with HTML, CSS, and JavaScript            
+              </p>
+              <td/>
+          </tr>
+      </table>
+       <h1 id="skills-text">Skills</h1>
+    <hr id="skills-line">
+    <ul id="skills">
+        <li>
+         Web Development: <br>
+         HTML
+         <a href="https://www.w3schools.com/html/"><img src=" https://codehs.com/uploads/4f52497222ee856e58d1d3b5f4d21535 " width="20"></a>
+         <br>
+          CSS:  
+          <a href="https://www.w3schools.com/css/default.asp"><img src=" https://codehs.com/uploads/49c3fd9dbb9ea3ff4ea795cfbe2aac7a " width="20"></a>  
+          <br>
+          JavaScript:
+           <a href="https://www.w3schools.com/js/default.asp"><img src=" https://codehs.com/uploads/10b9e61f70dc04a3c158974c600cb308 " width="20"></a>   
+        </li>Data Structures and Algorithms</li>
+        <li>Operating systems:
+        Linux <br>
+        Windows
+            
+        </li>
+        <li>Python</li>
+       
+        <!--end of skills section-->
+        <!--start the Project section-->
+        <h1 id="projects-text">Project </h1>
+        <hr id="projects-line">
+        <ul id="projects"></ul>
+         <li>Weather App</li>   
+         <li>Personal Portfolio</li>
+         <li></li>   
+        </ul>
+        
+        <table id="contact">
+            <tr>
+                <td colspan="2">
+                    <h1>Contact</h1>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="name">Name</label>
+                </td>
+                <td width="70%">
+                    <input type="text" id="name" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="email">Email</label>
+                </td>
+                <td width="70%">
+                    <input type="text" id="email" name="email">
+                </td>
+                <tr> 
+                <td width="30%">
+                    <label for="number">Number</label>
+                <td width="70%">
+                    <input type="number" id="number" name="number">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="message">Message</label>
+                </td>
+                <td width="70%">
+                    <textarea id="message" name="message"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td width="30"> </td>
+                <td width="70%">
+                    <button type="submit"> <strong>Submit</strong></button>
+                    <hr>
+                </td>
+            </tr>
+        </table>
+        
+        <center>
+            <h1> </h1>
+            <h3 id="footer"> Social Media</h3>
+            
+            <a href="#" class="fa fa-facebook"> </a>
+            <a href="#" class="fa fa-instagram"> </a>
+            <a href="#" class="fa fa-youtube-play"> </a>
+            
+            <h6> @Copyright 2026 Khaliya Barbee. All rights reserved.</h6>
+        </center>
+    </body>
+</html>
